@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const studentRoutes = require("./src/routes/studentroute");
 const subjectRoutes = require("./src/routes/subjectroute");
-const marksRoutes = require("./src/routes/marksRoute");
+const marksRoutes = require("./src/routes/marksroute");
 
 const app = express();
 app.use(bodyParser.json());
